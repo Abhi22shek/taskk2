@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Abhishek borana - Portfolio</title>
+  <link rel="stylesheet" href="./port.css" />
+  <script src="./porto.js"></script>
+</head>
+
+<body>
+  <!-- Navigation Bar -->
+  <nav>
+    <div id="home">
+      <div class="profile_name">
+        Abhishek Borana
+        <div class="contact_info">
+          <img src="envelope.jpg" alt="https://icons8.com/icon/124377/circled-envelope" />
+          abhisheksen789bd@gmail.com
+        </div>
+        <div style="clear:both;"></div>
+        <div class="contact_info">
+          <img src="telephone.png" alt="https://icons8.com/icon/124377/circled-envelope" />
+          9691749458
+
+        </div>
+      </div>
+      <div class="topdiv">
+        <a class="topmenu" href="#about-me">About Me</a>
+        <a class="topmenu" href="#skills"> Skills</a>
+        <a class="topmenu" href="#projects"> Projects</a>
+        <a class="topmenu" href="#recommendations"> Recommendations</a>
+      </div>
+    </div>
+  </nav>
+
+   <!-- ABout me section -->
+  <section id="about-me" class="container">
+    <div>
+      <img src="cartoon-573.gif" class="profile_image" />
+    </div>
+
+    <div>
+      <h1>
+        Hi , I am Abhishek Borana <img src="laptop.avif" width="60px" />
+      </h1>
+      <p>
+         I'm, a passionate web developer with a flair for turning ideas into functional and engaging
+        online experiences. My journey into web development began with a curiosity for crafting digital solutions, and
+        since then, I've immersed myself in the world of coding and design. With a strong foundation in HTML, CSS, and
+        JavaScript, I've had the pleasure of bringing websites to life, from responsive interfaces to interactive
+        features. What drives me? The thrill of problem-solving and the satisfaction of building something that not only
+        looks great but functions seamlessly. When I'm not coding, you can find me exploring the outdoors or
+        experimenting in the kitchen. Let's collaborate and create something exceptional!"
+      </p>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <div style="clear:both;"></div>
+
+    <div class="all_skills">
+      <div class="skill">
+        <img src="HTML5_logo.webp" />
+        <h6>HTML</h6>
+        <p>3 month experience</p>
+      </div>
+
+      <div class="skill">
+        <img src="JavaScript-logo.png" />
+        <h6>JavaScript</h6>
+        <p>1 month experience</p>
+      </div>
+
+      <div class="skill">
+        <img src="csslogo.avif" />
+        <h6>CSS</h6>
+        <p>2 month experience</p>
+      </div>
+
+      <div class="skill">
+        <img src="c++ logo.png" />
+        <h6>C/C++</h6>
+        <p>1 years experience</p>
+      </div>
+
+      <div class="skill">
+        <img src="download.jpeg" />
+        <h6>Data Structure and algorithm</h6>
+        <p>8 month experience</p>
+      </div>
+
+
+
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="projects" id="projects">
+  <h2>projects</h2>
+    <div style="clear:both;"></div>
+
+    <div id="projects-container" class="projects-container">
+      <div class="project-card">
+        <h3>My Portfolio</h3>
+        <ul>
+          <li>Developed  my Portfolio using Html,Css and JavaScript/li>
+        </ul>
+      </div>
+      <hr>
+      <div class="project-card">
+        <h3>Tempreature converter</h3>
+        <ul>
+          <li>Created simple and easy Tempreature converter using HTML,CSS and JavaScript</li>
+        </ul>
+      </div>
+      <div class="project-card">
+        <h3>Simple Interest Calculatore</h3>
+        <ul>
+          <li>Created a beginner friendly project that is simple interest that take amount as input and calculate years
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <div style="clear:both;"></div>
+
+  <!-- Recommendations -->
+  <section id="recommendations">
+    <h2>Recommendations</h2>
+    <div style="clear:both;"></div>
+    <div class="all_recommendations" id="all_recommendations">
+      <div class="recommendation">
+        <span>&#8220;</span>
+        Abhishek is a very quick learner and quickly grasps key concepts of Web development.
+        he got a great attitude & she is an excellent team player.
+        he has a curious mind and asks the right question.
+        he takes initiative within a team and has potentials to lead the team.
+        <span>&#8221;</span>
+      </div>
+      <div class="recommendation">
+        <span>&#8220;</span>
+        Working with Abhishek has been an awesome experience.
+        he is highly knowledgable and always goes the extra step to make sure everything is right.
+        For any future projects that need her expertise I would definitely want to work with her again.
+        <span>&#8221;</span>
+      </div>
+      <div class="recommendation">
+        <span>&#8220;</span>
+        I had worked along with Abhishek during the initial phase of our venture which needed Web development.
+        he is a committed resource who has in depth knowledge about the domain.
+        he will be an asset for any organisation!
+        <span>&#8221;</span>
+      </div>
+      <div class="recommendation">
+        <span>&#8220;</span>
+        Abhishek Borana is a highly motivated and results-oriented individual. They are always willing to go the extra
+        mile
+        to get the job done, and they are always looking for ways to improve their skills and knowledge. Abhishek Borana
+        is
+        also a great team player, and they are always willing to help out their colleagues.
+        <span>&#8221;</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Recommendation Form -->
+  <section id="contact">
+    <div class="flex_center">
+      <fieldset>
+        <legend class="introduction">Leave a Recommendation</legend>
+        <input type="text" placeholder="Name (Optional)"> <br />
+        <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+        <div class="flex_center">
+          <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+        </div>
+      </fieldset>
+    </div>
+  </section>
+
+  <div class="iconbutton">
+    <a href="#home">
+    
+      <img src="up-arrow (2).png">
+    </a>
+  </div>
+
+  <div class="popup" id="popup" class="flex_center">
+    <img src="icons8-checkmark.gif" />
+    <h3>Thanks for leaving a recommendation</h3>
+    <button onclick="showPopup(false)">Ok</button>
+  </div>
+</body>
+
+</html>
